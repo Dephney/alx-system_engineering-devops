@@ -1,2 +1,4 @@
 #!/bin/bash
-echo 'hello ' && whoami
+a="hello "
+b="$(whoami)"
+echo "${a} ${b}"
