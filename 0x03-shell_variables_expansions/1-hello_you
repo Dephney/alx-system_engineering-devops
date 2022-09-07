@@ -1,4 +1,2 @@
 #!/bin/bash
-a="hello "
-b="$(whoami)"
-echo "${a} ${b}"
+echo "hello $(whoami)"
