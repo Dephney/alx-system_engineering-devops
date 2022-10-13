@@ -1,6 +1,6 @@
 # Shell, basics
 
-**In this projects, I learned about:**
+**In this project, I learned about:**
 
 ### General
 
@@ -65,18 +65,35 @@
 
 - What does LTS mean?
 
-## Tasks
+# Tasks
 
-- 0. Where am I?
+- **0.Where am I?**
     * [0-current_working_directory](/0x00-shell_basics/0-current_working_directory) : a script that prints the absolute path name of the current working directory
-- 1. What’s in there?
+- **1.What’s in there?**
     * [1-listit](/0x00-shell_basics/1-listit) : a script that displays the contents list of your current directory
-- 2. There is no place like home
+- **2.There is no place like home**
     * [2-bring_me_home](/0x00-shell_basics/2-bring_me_home) : a script that changes the working directory to the user’s home directory
-- 3. The long format
+- **3.The long format**
     * [3-listfiles](/0x00-shell_basics/3-listfiles) : a script that display current directory contents in a long format
-- 4. Hidden files
-    * [4-listmorefiles](/0x00-shell_basics/4-listmorefiles) : a script that displays current directory contents, including hidden files (starting with .). Use the long format.
-- 5. I love numbers
-    * [5-listfilesdigitonly](/0x00-shell_basics/5-listfilesdigitonly) : a script that displays current directory contents
-- 
+- **4.Hidden files**
+    * [4-listmorefiles](/0x00-shell_basics/4-listmorefiles) : a script to isplay current directory contents, including hidden files (starting with .). Use the long format
+- **5.I love numbers**
+    * [5-listfilesdigitonly](/0x00-shell_basics/5-listfilesdigitonly) : a script to display current directory contents
+- **6.Welcome**
+    * [6-firstdirectory](/0x00-shell_basics/6-firstdirectory) : a script that creates a directory named my_first_directory in the /tmp/ directory
+- **7.Betty in my first directory**
+    * [7-movethatfile](/0x00-shell_basics/7-movethatfile) : a script to move the file betty from /tmp/ to /tmp/my_first_directory
+- **8.Bye bye Betty**
+    * [8-firstdelete](/0x00-shell_basics/8-firstdelete) : a scipt to delete the file betty
+- **9.Bye bye My first directory**
+    * [9-firstdirdeletion](/0x00-shell_basics/9-firstdirdeletion) : a script to delete the directory my_first_directory that is in the /tmp directory
+- **10.Back to the future**
+    * [10-back](/0x00-shell_basics/10-back) : a script that changes the working directory to the previous one
+- **11.Lists**
+    * [11-lists](/0x00-shell_basics/11-lists) : a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+- **12.File system**
+    * [12-file_type](/0x00-shell_basics/12-file_type) : a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
+- **13.We are symbols, and inhabit symbols**
+    * [13-symbolic_link](/0x00-shell_basics/13-symbolic_link) : a script to create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory
+- **14.Copt HTML files**
+    * [14-copy_html](/0x00-shell_basics/14-copy_html) : a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
