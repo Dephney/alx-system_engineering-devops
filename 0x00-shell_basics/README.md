@@ -1,20 +1,20 @@
 # Shell, basics
 
-**In this projects, I learned about:
+**In this projects, I learned about:**
 
-## General
+### General
 
 - What does RTFM mean?
 - What is a Shebang
 
-## What is the Shell
+### What is the Shell
 
 - What is the shell
 - What is the difference between a terminal and a shell
 - What is the shell prompt
 - How to use the history (the basics)
 
-## Navigation
+### Navigation
 
 - What do the commands or built-ins cd, pwd, ls do
 - How to navigate the filesystem
@@ -26,13 +26,13 @@
 - What are the characteristics of hidden files and how to list them
 - What does the command cd - do
 
-## Looking Around
+### Looking Around
 
 - What do the commands ls, less, file do
 - How do you use options and arguments with commands
 - Understand the ls long format and how to display it
 
-## A Guided Tour
+### A Guided Tour
 
 - What does the ln command do
 - What do you find in the most common/important directories
@@ -40,7 +40,7 @@
 - What is a hard link
 - What is the difference between a hard link and a symbolic link
 
-## Manipulating Files
+### Manipulating Files
 
 - What do the commands cp, mv, rm, mkdir do
 - What are wildcards and how do they work
@@ -51,16 +51,32 @@
 - What is an alias
 - When do you use the command help instead of man
 
-## Reading Man Pages
+### Reading Man Pages
 
 - How to read a man page
 - What are man page sections
 - What are the section numbers for User commands, System calls and Library functions
 
-## Keyboard Shortcuts for Bash
+### Keyboard Shortcuts for Bash
 
 - Common shortcuts for Bash
 
-## LTS
+### LTS
 
 - What does LTS mean?
+
+## Tasks
+
+- 0. Where am I?
+    * [0-current_working_directory](/0x00-shell_basics/0-current_working_directory) : a script that prints the absolute path name of the current working directory
+- 1. What’s in there?
+    * [1-listit](/0x00-shell_basics/1-listit) : a script that displays the contents list of your current directory
+- 2. There is no place like home
+    * [2-bring_me_home](/0x00-shell_basics/2-bring_me_home) : a script that changes the working directory to the user’s home directory
+- 3. The long format
+    * [3-listfiles](/0x00-shell_basics/3-listfiles) : a script that display current directory contents in a long format
+- 4. Hidden files
+    * [4-listmorefiles](/0x00-shell_basics/4-listmorefiles) : a script that displays current directory contents, including hidden files (starting with .). Use the long format.
+- 5. I love numbers
+    * [5-listfilesdigitonly](/0x00-shell_basics/5-listfilesdigitonly) : a script that displays current directory contents
+- 
