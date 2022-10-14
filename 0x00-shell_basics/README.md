@@ -1,11 +1,6 @@
-# Shell, basics
+# 0x00. Shell, basics
 
 **In this project, I learned about:**
-
-### General
-
-- What does RTFM mean?
-- What is a Shebang
 
 ### What is the Shell
 
@@ -60,10 +55,6 @@
 ### Keyboard Shortcuts for Bash
 
 - Common shortcuts for Bash
-
-### LTS
-
-- What does LTS mean?
 
 # Tasks
 
